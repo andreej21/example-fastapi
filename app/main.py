@@ -27,4 +27,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def get_user():
-    return {"message" : "welcome to  api"}
+    return {"message" : "welcome to api"}
